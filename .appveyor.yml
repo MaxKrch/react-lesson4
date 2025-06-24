@@ -1,0 +1,30 @@
+image: Ubuntu2004
+stack: node 22
+
+branches:
+  only:
+    - master
+
+cache: node_modules
+
+install:
+  - npm install
+
+build: off
+
+build_script:
+  - npm run build
+
+test_script:
+  - npm run lint && npm test
+
+# environment:
+#   GITHUB_TOKEN:
+#     secure: YOUR_ENCRYPTED_GITHUB_TOKEN_HERE
+
+
+deploy_script:
+  - git config --global user.name "AppVeyor"
+  - git config --global user.email "ci@appveyor.com"
+  - git remote set-url origin https://$GITHUB_TOKEN@github.com/MaxKrch/react-lesson4.git
+  - npm run deploy
