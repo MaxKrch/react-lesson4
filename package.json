@@ -1,5 +1,6 @@
 {
-  "name": "app",
+  "name": "react-lesson4",
+  "homepage": "https://maxkrch.github.io/react-lesson4",
   "private": true,
   "version": "0.0.0",
   "type": "module",
