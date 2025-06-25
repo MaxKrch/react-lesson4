@@ -1,0 +1,46 @@
+.converter-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.converter-body {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: 3px 3px 3px rgb(255 255 255 / 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.converter-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+    font-size: 1rem;
+}
+
+.converter-input {
+    border: 1px solid black;
+    outline: none;
+}
+
+.converter-message {
+    position: relative;
+}
+.converter-message:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgb(55 55 55 / 0.1);
+}
