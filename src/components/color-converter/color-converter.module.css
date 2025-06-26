@@ -30,6 +30,7 @@
 .converter-input {
     border: 1px solid black;
     outline: none;
+    text-align: center;
 }
 
 .converter-message {
