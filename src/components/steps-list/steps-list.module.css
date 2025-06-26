@@ -42,16 +42,17 @@
     width: 100%;
     margin-top: 1rem;
     background-color: #EFEFEF;
+    min-height: 3rem;
 }
 
 
 .steps-list-table-body__tr {
-    padding: 0.7rem;
     border-radius: 0.5rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
     background-color: #FFFFFF;
+    padding: 0.7rem;
 }
 
 .steps-list-table-body__td {

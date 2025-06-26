@@ -1,0 +1,11 @@
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    border: 1px solid #777777;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: #FFFFFF;
+}

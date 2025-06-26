@@ -1,0 +1,36 @@
+.image-select-form {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #777777;
+    border-radius: 1rem;
+    background-color: #FEFEFE;
+    position: relative;
+}
+
+.image-select-form:hover {
+    background-color: #EFEFFF;
+}
+
+.image-select-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.image-select-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;    
+}
