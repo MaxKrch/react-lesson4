@@ -1,9 +1,7 @@
-import type { ChangeEvent } from "react"
+import type { ChangeEvent } from 'react'
 
 type ImageSelectProps = {
-    onSelectFiles: ({target}: ChangeEvent<HTMLInputElement>) => void
+  onSelectFiles: ({ target }: ChangeEvent<HTMLInputElement>) => void
 }
 
-export type {
-    ImageSelectProps
-}
+export type { ImageSelectProps }
